@@ -4,9 +4,9 @@ description: A Helm chart for Dapr on Kubernetes
 name: dapr
 version: 1.0.0
 dependencies:
-  - name: dapr_rbac
-    version: "0.6.0"
-    repository: "file://dapr_rbac"
+# - name: dapr_rbac
+#   version: "0.6.0"
+#   repository: "file://dapr_rbac"
   - name: dapr_operator
     version: "0.6.0"
     repository: "file://dapr_operator"
